@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  entrydesk:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - DATABASE_URL=sqlite:///./entrydesk.db
+    volumes:
+      - ./entrydesk.db:/app/entrydesk.db
+      - ./.env:/app/.env
+    restart: unless-stopped

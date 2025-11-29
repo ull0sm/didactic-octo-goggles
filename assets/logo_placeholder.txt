@@ -1,0 +1,11 @@
+# Logo Placeholder
+
+Place your organization's logo here as "logo.png"
+
+The logo should be:
+- Format: PNG
+- Recommended size: 180px - 250px wide
+- Aspect ratio: Square or slightly rectangular
+- Background: Transparent or white
+
+The current code references: assets/logo.png
